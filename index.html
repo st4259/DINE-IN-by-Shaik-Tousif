@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dine-in by Tousif</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- fav icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Assets\favicon_io\apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <!-- not putting above__navbar and navbar in hearder so that position: sticky; could work 
+      if I put them in header Sticky on navbar is not working -->
+
+    <div class="above__navbar">
+      <span class="material-icons">call</span>
+      <span><a href="tel:123-456-7890">+91 9059493890</a></span>
+      <span style="margin-left: 8px" class="material-icons">
+        pending_actions
+      </span>
+      <span>Monday to Sunday: 9AM - 11PM </span>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbrand">
+        <img
+          src="./assets/Mini_Logo3.png"
+          alt="brand logo"
+          class="moblie__logo"
+        />
+        <img
+          src="./assets/White_Logo.png"
+          alt="brand logo"
+          class="laptop__logo"
+        />
+      </div>
+
+      <div class="nav__items">
+        <a href="">Home</a>
+        <a href="#Omenu">Menu</a>
+        <a href="./Gallery.html">Gallery</a>
+        <a href="./About_us.html">About</a>
+      </div>
+
+      <div class="hamburger__menu">
+        <input type="checkbox" />
+        <span style="color: brown" class="material-icons"> menu </span>
+        <div id="show__menu">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#Omenu">Menu</a>
+          <a href="./Gallery.html">Gallery</a>
+          <a href="./About_us.html">About</a>
+        </div>
+      </div>
+
+      <div class="nav__booktabe">
+        <button class="btn__primary">Book a table or order online</button>
+      </div>
+      
+    </nav>
+
+    <main class="hero__section">
+      <div class="hero__two__containers">
+        <div class="container__two">
+          <div class="container_two_img">
+            <img src="./assets/hero_img1.jpeg" alt="" />
+          </div>
+
+          <div class="container__two__quote">
+            <h1 style="font-weight: 500">
+              Welcome to
+              <span style="color: #ff5353; font-weight: 700">Dine-in</span>
+            </h1>
+            <p>serving great food for more than 20 years</p>
+          </div>
+        </div>
+
+        <div class="container__one">
+          <div class="Hygiene features">
+            <img src="./assets/Hygiene.png" alt="" />
+            <h4>Hygienic</h4>
+            <p>Food Safety Involves Everybody in the Food Chain.</p>
+          </div>
+          <div class="Fresh features">
+            <img src="./assets/Fresh Food.png" alt="" />
+            <h4>Fresh</h4>
+            <p>Think Healthy and Fresh Always.</p>
+          </div>
+          <div class="Quick features">
+            <img src="./assets/Quick.png" alt="" />
+            <h4>Quick</h4>
+            <p>Fantastic Staff. Skilled and friendly staff members are one of the biggest signs of a great restaurant..</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="Omenu" class="menu">
+      <h1>Our <span>Menu.</span></h1>
+
+      <div class="menu__items">
+        <a href="#burger"
+          ><div class="menu__item__holder">
+            <img src="./assets/menu/Burger_Final.png" alt="" />
+            <h5>Burgers</h5>
+          </div></a
+        >
+
+        <a href="#fries"
+          ><div class="menu__item__holder">
+            <img src="./assets/menu/Fries.png" alt="" />
+            <h5>Fries</h5>
+          </div></a
+        >
+        <a href="#sandwich"
+          ><div class="menu__item__holder">
+            <img src="./assets/menu/Sandwich.png" alt="" />
+            <h5>Sandwiches</h5>
+          </div></a
+        >
+        <a href="#hot__dogs"
+          ><div class="menu__item__holder">
+            <img src="./assets/menu/Hot Dog.png" alt="" />
+            <h5>Hotdogs</h5>
+          </div></a
+        >
+        <a href="#drinks"
+          ><div class="menu__item__holder">
+            <img src="./assets/menu/Glass_Drink.png" alt="" />
+            <h5>Drinks</h5>
+          </div></a
+        >
+      </div>
+
+      <div id="burger" class="food__item">
+        <h2>Burgers.</h2>
+        <div class="food__container">
+          <div class="food__item__holder">
+            <img src="./assets/Burger__1.jpg" alt="" />
+            <div class="food__item__info">
+              <p>DOUBLE PATTY CHICKEN BURGER</p>
+              <h4>₹170</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/Burger__2.jpg" alt="" />
+            <div class="food__item__info">
+              <p>Non-Veg ANIMAL STYLE BURGER</p>
+              <h4>₹280</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/Burger__3.jpg" alt="" />
+            <div class="food__item__info">
+              <p>MAI HOON GIAN BURGER-Pack of 2</p>
+              <h4>₹420</h4>
+            </div>
+          </div>
+          <div class="food__item__holder">
+            <img src="./assets/Burger__4.jpg" alt="" />
+            <div class="food__item__info">
+              <p>RICE BALL CHEEZY BURGER</p>
+              <h4>₹170</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fries" class="food__item">
+        <h2>Fries.</h2>
+        <div class="food__container">
+          <div class="food__item__holder">
+            <img src="./assets/fries__3.jpg" alt="" />
+            <div class="food__item__info">
+              <p>KWAME'S WAFFLE FRIES</p>
+              <h4>₹200</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/fries__2.jpg" alt="" />
+            <div class="food__item__info">
+              <p>SPCL EXTRA CHEEZY FRIES</p>
+              <h4>₹150</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/fries__1.jpg" alt="" />
+            <div class="food__item__info">
+              <p>BOMBAY FRIES</p>
+              <h4>₹160</h4>
+            </div>
+          </div>
+          <div class="food__item__holder">
+            <img src="./assets/fries__4.jpg" alt="" />
+            <div class="food__item__info">
+              <p>AIR FRYER FRENCH FRIES</p>
+              <h4>₹120</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="sandwich" class="food__item">
+        <h2>Sandwiches.</h2>
+        <div class="food__container">
+          <div class="food__item__holder">
+            <img src="./assets/Sandwich__1.jpg" alt="" />
+            <div class="food__item__info">
+              <p>GRILLED BREAD SANDWICH</p>
+              <h4>₹120</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/Sandwich__2.jpg" alt="" />
+            <div class="food__item__info">
+              <p>UNIQUE JELLY SANDWICH</p>
+              <h4>₹60CR</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/Sandwich__3.jpg" alt="" />
+            <div class="food__item__info">
+              <p>EXCLUSIVE OLD BOMBAY SANDWICH</p>
+              <h4>₹1500</h4>
+            </div>
+          </div>
+          <div class="food__item__holder">
+            <img src="./assets/sandwich__4.jpg" alt="" />
+            <div class="food__item__info">
+              <p>BEER AND SANDWICH SPECIAL COMBO</p>
+              <h4>₹250CR</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hot__dogs" class="food__item">
+        <h2>Hot Dogs And Rolls.</h2>
+        <div class="food__container">
+          <div class="food__item__holder">
+            <img src="./assets/hotdog__1.jpg" alt="" />
+            <div class="food__item__info">
+              <p>very Hot Dog</p>
+              <h4>₹200</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/hotdog__2.jpg" alt="" />
+            <div class="food__item__info">
+              <p>VERY COOL DOG</p>
+              <h4>₹182</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/hotdog__3.jpg" alt="" />
+            <div class="food__item__info">
+              <p>CALCUTTA CHICKEN ROLL</p>
+              <h4>₹150</h4>
+            </div>
+          </div>
+          <div class="food__item__holder">
+            <img src="./assets/hotdog__4.jpg" alt="" />
+            <div class="food__item__info">
+              <p>MINI BUFFALO CHICKEN EGG ROLL</p>
+              <h4>₹257</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="drinks" class="food__item">
+        <h2>Drinks.</h2>
+        <div class="food__container">
+          <div class="food__item__holder">
+            <img src="./assets/bloodymarry__1.jpg" alt="" />
+            <div class="food__item__info">
+              <p>BLUE VIRGIN COCKTAIL MOJITO</p>
+              <h4>₹333</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/bloodymarry__2.jpg" alt="" />
+            <div class="food__item__info">
+              <p>WATERMOLEN Daiquiri</p>
+              <h4>₹222</h4>
+            </div>
+          </div>
+
+          <div class="food__item__holder">
+            <img src="./assets/bloodymarry__3.jpg" alt="" />
+            <div class="food__item__info">
+              <p>BLUE LAGOON MOCKTAIL</p>
+              <h4>₹444</h4>
+            </div>
+          </div>
+          <div class="food__item__holder">
+            <img src="./assets/bloodymarry__4.jpg" alt="" />
+            <div class="food__item__info">
+              <p>GIRLS GLOBE RED MOCKTAIL</p>
+              <h4>₹444</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__app">
+      <h1>Download Our <span>App.</span></h1>
+      <div class="download__icons">
+        <img src="./assets/apple.png" alt="" />
+        <img src="./assets/android.png" alt="" />
+      </div>
+    </section>
+
+    <footer>
+      <img src="./assets/White_Logo.png" alt="" />
+      <div style="text-align: center;">
+        <h5>Made with ❤️ </h5>
+        <p style="font-size: x-small;">This website is created only with HTML and CSS for kommunicate Frontend Task</p>
+      </div>
+    </footer>
+  </body>
+</html>
